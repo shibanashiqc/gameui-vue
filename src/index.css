@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url("./assets/fonts/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Flicker';
+    src:url('./assets/fonts/Flicker.ttf.woff') format('woff'),
+        url('./assets/fonts/Flicker.ttf.svg#Flicker') format('svg'),
+        url('./assets/fonts/Flicker.ttf.eot'),
+        url('./assets/fonts/Flicker.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
+:root {
+  font-family: Flicker, sans-serif;
+}
