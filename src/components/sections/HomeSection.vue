@@ -22,49 +22,71 @@
   </section>
 
 
-  <section id="about" class="pb-3">
+  <div class="dark:bg-pink-200">
+  <section id="about" class="">
 
-    <div class="items-center px-5">
-      <div class="flex justify-center">
-        <div class="max-w p-6 bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
-              acquisitions 2021</h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"> {{ content }}</p>
-          <a href="#"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
+    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-pink-200 dark:border-gray-700">
+    </div>
+    <div class="items-center dark:bg-gray-800 ">
+        <div class="max-w p-10 bg-white shadow dark:bg-pink-200 dark:border-gray-700">
+          
+          <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
+          <div class="flex justify-center pt-3">
+          <div class="bg-white mt-10 w-full two">
+          <p class="mb-3 font-normal p-5"> {{ content }}</p>
+          </div>
         </div>
-        
       </div>
-      <hr class="border-2 border-blue-200" />
     </div>
   </section>
 
-  <section class="pt-5 px-5" id="tokenomics">
+  <section class="" id="tokenomics">
+    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-gray-800 ">
+    </div>
     <div class="dark:bg-gray-800 ">
-      <div class="pb-4 px-4 rounded-md w-full ">
+      
+      
+     
+      
+      
+      <div class="pb-4 px-4 rounded-md w-full pb-5">
+        
+        
+        
+        <div class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-20">
+        <div class="text-left">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          >CA :
+         </h5>
+          2000000000000000000000000
+        </div>
+        <div class="text-left">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  text-white pt-2"
+          > TOTAL SUPPLY :</h5>
+          200,000000000
+         </div>
+        <div class="text-left">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  text-white pt-2"
+          > TAX :</h5> 
+          4.2 % Buy 6.8 % Sell
+        </div>
+      </div>
+      
+        
         <div class="flex justify-between w-full pt-6 ">
 
         </div>
         <div class="w-full flex justify-end px-2 mt-2">
 
         </div>
-        <div class="overflow-x-auto mt-6">
+        <div class="overflow-x-auto mt-6 px-20">
 
-          <table class="table-auto border-collapse w-full">
+          <!-- <table class="table-auto border-collapse w-full">
             <thead>
-              <tr class=" text-sm font-medium text-gray-700 text-left" style="font-size: 0.9674rem">
-                <th class="px-4 py-2 bg-gray-200 " style="background-color:#f8f8f8">CA</th>
-                <th class="px-4 py-2 " style="background-color:#f8f8f8">TOTAL SUPPLY</th>
-                <th class="px-4 py-2 " style="background-color:#f8f8f8">TAX</th>
+              <tr class=" text-sm font-medium text-white text-left" >
+                <th>CA : </th>
+                <th>TOTAL SUPPLY : </th>
+                <th>TAX : </th>
               </tr>
             </thead>
             <tbody class="text-sm font-normal text-white">
@@ -75,28 +97,29 @@
                 <td class="px-4 py-4">4.2 % Buy 6.8 % Sell</td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
         </div>
 
       </div>
 
     </div>
 
-    <!-- <hr class="border-2 border-blue-200" /> -->
+    <hr class="border-2 border-blue-200" />
   </section>
+</div>
 
 
   <section class="dark:bg-gray-800 pt-5">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
-      <div class="bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700 items-center ">
-        <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center text-white pt-2">AUTO PIOLOTS</h3>
-        <p class="p-2 mb-3 font-normal text-gray-700 dark:text-gray-400">
+      <div class="bg-white border border-gray-200  shadow dark:bg-pink-200 dark:border-gray-700 items-center ">
+        <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
+        <p class="p-2 mb-3 font-normal ">
           {{ content }}
         </p>
       </div>
-      <div class="bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700 items-center">
-        <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center pt-2">AUTO PIOLOTS</h3>
-        <p class="p-2 mb-3 font-normal text-gray-700 dark:text-gray-400">
+      <div class="bg-white border border-gray-200  shadow dark:bg-pink-200 dark:border-gray-700 items-center">
+        <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
+        <p class="p-2 mb-3 font-normal ">
           {{ content }}
         </p>
       </div>
@@ -110,9 +133,47 @@
       ROADMAP
     </h2>
     <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
+    
+      <hr class="border-2 border-blue-200 mb-5" />
+      <div class="pt-2"  v-for="roadmap in roadmaps" :key="roadmap.title">
+        
+      <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+        <div class="text-center">
+          <img class="lg:h-48 md:h-20 object-cover object-center" :src="roadmap.img" alt="blog cover" />
+        </div>
+        <div class="text-center lg:pt-12">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          >{{ roadmap.title }}
+          </h5>
+          
+          <div class="lg:px-10" v-if="roadmap.load">
+            <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
+              <a href="#" class="text-green-200  md:mb-2 lg:mb-0">
+                <p class="inline-flex items-center">
+                  * {{ point }}
+                </p>
+              </a>
+            </div>
+          </div>
+          
+         </div>
+        <div class="text-center lg:pt-12 ">
+          <!-- arrow  -->
+          <div class="tab">
+          <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
+          <label for="{{ point }}" :class="roadmap.load ? 'tab__labels' : 'tab__label'" v-on:click="roadmap.load = !roadmap.load" ></label>
+         
+        </div>
+        </div>
+         
+      </div>
+      
+      <hr class="border-2 border-blue-200 mb-5" />
+      
+    </div>
 
 
-    <div class="flex flex-wrap -m-4">
+    <!-- <div class="flex flex-wrap -m-4">
 
       <div class="p-4 md:w-1/3" v-for="roadmap in roadmaps" :key="roadmap.title">
         <div class="h-full border-2 border-gray-200 border-opacity-60  overflow-hidden">
@@ -147,7 +208,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
 
 
@@ -160,17 +221,24 @@
 
 
 
-  <section class="dark:bg-gray-800  from-pink-50 to-indigo-100 p-8" id="lore">
+  <section class="dark:bg-gray-800 from-pink-50 to-indigo-100" id="lore">
+    
+    
+    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-green-200 ">
+    </div>
+    
+    <div class="dark:dark:bg-green-200">
+    
     <h1 class="text-center font-bold text-2xl text-white">Lore</h1>
     <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
 
-    <div class="grid justify-center md:grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-7 my-10">
-      <!-- Card 1 -->
+    <!-- <div class="grid justify-center md:grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-7 my-10">
+     
       <div class="bg-dark  border shadow-md max-w-xs md:max-w-none overflow-hidden" v-for="lo in lore"
         :key="lo.title">
         <img class="h-56 lg:h-60 w-full object-cover" :src="lo.img" alt="" />
         <div class="p-3">
-          <!-- <span class="text-sm text-primary">November 19, 2022</span> -->
+        
           <h3 class="font-semibold text-xl leading-6 text-white my-2">
             {{ lo.title }}
           </h3>
@@ -190,8 +258,42 @@
       </div>
 
 
+    </div> -->
+    
+    <hr class="border-2 border-blue-200 mb-5" />
+      <div class="pt-2"  v-for="lo in lore" :key="lo.title">
+        
+      <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+        <div class="text-center">
+          <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
+        </div>
+        <div class="text-center lg:pt-12">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          >{{ lo.title }}
+          </h5>
+          
+          <div class="lg:px-10" v-if="lo.load">
+           <p>
+            {{ lo.desc }}
+           </p>
+          </div>
+          
+         </div>
+        <div class="text-center lg:pt-12 ">
+          <!-- arrow  -->
+          <div class="tab">
+          <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
+          <label for="{{ lo }}" :class="lo.load ? 'tab__labels' : 'tab__label'" v-on:click="lo.load = !lo.load" ></label>
+         
+        </div>
+        </div>
+         
+      </div>
+      
+      <hr class="border-2 border-blue-200 mb-5" />
+      
     </div>
-
+  </div>
 
 
   </section>
@@ -365,6 +467,7 @@ const roadmaps = [
     'title': 'FIRST DEADLINE BLUE MOON',
     'date': '9/01/2021',
     'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
+    'load': false,
     'points': [
       'Website Launch',
       'Whitepaper Release',
@@ -377,6 +480,7 @@ const roadmaps = [
     'title': 'Q2 2021',
     'date': '9/01/2021',
     'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
+    'load': false,
     'points': [
       'Website Launch',
       'Whitepaper Release',
@@ -390,6 +494,7 @@ const roadmaps = [
     'title': 'Q2 2023',
     'date': '9/01/2021',
     'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
+    'load': false,
     'points': [
       'Website Launch',
       'Whitepaper Release',
@@ -403,6 +508,7 @@ const roadmaps = [
     'title': 'Q2 2025',
     'date': '9/01/2021',
     'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
+    'load': false,
     'points': [
       'Website Launch',
       'Whitepaper Release',
@@ -443,11 +549,43 @@ export default {
 }
 
 
+
+
 .text-overflow-handle {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis
 }
+
+
+.squareCut {
+  position: relative;
+  z-index:1;
+  top:-55px;
+  /* left:370px; */
+}
+
+.squareCut:before, .squareCut:after {
+  content:"";
+  position: absolute;
+  background-color: #fff;
+  z-index:-1;
+}
+
+.squareCut:before {
+  width:300px;
+  height: 90px;
+  top:-25px;
+  left:-22px;
+}
+
+.squareCut:after {
+  height: 130px;
+  width: 260px;
+  left:-2px;
+  top:-45px;
+}
+
 
 
 .btn {
@@ -480,6 +618,14 @@ export default {
 }
 
 @media (min-width: 1280px) {
+  .two{
+  /* //square */
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+  clip-path: polygon(6% 0, 100% 0, 100% 79%, 95% 100%, 0 100%, 0 19%);
+  border:none;
+  padding: 50px;
+ 
+}
   .font-xl {
     font-size: 7rem;
   }
@@ -497,4 +643,101 @@ export default {
 
 .align-middle {
   vertical-align: middle;
-}</style>
+}
+
+
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+.tab input:checked ~ .tab__content {
+  max-height: 10rem;
+}
+
+/* Visual styles */
+.accordion {
+  color: var(--theme);
+  border: 2px solid;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.tab__label,
+.tab__close {
+  display: flex;
+  color: white;
+  background: var(--theme);
+  cursor: pointer;
+  font-size: 60px;
+  color: yellowgreen;
+}
+
+.tab__labels{
+  display: flex;
+  color: white;
+  background: var(--theme);
+  cursor: pointer;
+  font-size: 60px;
+  color: yellowgreen;
+}
+
+.tab__label {
+  justify-content: space-between;
+  padding: 1rem;
+}
+.tab__label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+
+.tab__labels::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+}
+.tab__content p {
+  margin: 0;
+  padding: 1rem;
+}
+.tab__close {
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+.accordion--radio {
+  --theme: var(--secondary);
+}
+
+/* Small animation */
+.tab__label:hover::after {
+  animation: bounce .5s infinite;
+}
+
+
+@keyframes bounce {
+  25% {
+    transform: rotate(90deg) translate(.25rem);
+  }
+  75% {
+    transform: rotate(90deg) translate(-.25rem);
+  }
+}
+
+
+</style>
