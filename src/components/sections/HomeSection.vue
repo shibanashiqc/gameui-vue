@@ -263,17 +263,17 @@
     <hr class="border-2 border-blue-200 mb-5" />
       <div class="pt-2"  v-for="lo in lore" :key="lo.title">
         
-      <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+      <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium  text-left px-10">
         <div class="text-center">
           <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
         </div>
         <div class="text-center lg:pt-12">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter  pt-2"
           >{{ lo.title }}
           </h5>
           
           <div class="lg:px-10" v-if="lo.load">
-           <p>
+           <p class="text-dark">
             {{ lo.desc }}
            </p>
           </div>
