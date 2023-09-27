@@ -33,7 +33,7 @@
           </a>
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"> {{ content }}</p>
           <a href="#"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
               viewBox="0 0 14 10">
@@ -61,7 +61,7 @@
 
           <table class="table-auto border-collapse w-full">
             <thead>
-              <tr class="rounded-lg text-sm font-medium text-gray-700 text-left" style="font-size: 0.9674rem">
+              <tr class=" text-sm font-medium text-gray-700 text-left" style="font-size: 0.9674rem">
                 <th class="px-4 py-2 bg-gray-200 " style="background-color:#f8f8f8">CA</th>
                 <th class="px-4 py-2 " style="background-color:#f8f8f8">TOTAL SUPPLY</th>
                 <th class="px-4 py-2 " style="background-color:#f8f8f8">TAX</th>
@@ -86,15 +86,15 @@
   </section>
 
 
-  <section class="dark:bg-gray-800 pt-5 px-10">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-10">
-      <div class="w-full  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 items-center ">
+  <section class="dark:bg-gray-800 pt-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
+      <div class="bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700 items-center ">
         <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center text-white pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal text-gray-700 dark:text-gray-400">
           {{ content }}
         </p>
       </div>
-      <div class="w-full  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 items-center">
+      <div class="bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700 items-center">
         <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal text-gray-700 dark:text-gray-400">
           {{ content }}
@@ -115,7 +115,7 @@
     <div class="flex flex-wrap -m-4">
 
       <div class="p-4 md:w-1/3" v-for="roadmap in roadmaps" :key="roadmap.title">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div class="h-full border-2 border-gray-200 border-opacity-60  overflow-hidden">
           <div class="w-full">
             <div class="w-full flex p-2">
               <div class="p-2 ">
@@ -166,7 +166,7 @@
 
     <div class="grid justify-center md:grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-7 my-10">
       <!-- Card 1 -->
-      <div class="bg-dark rounded-lg border shadow-md max-w-xs md:max-w-none overflow-hidden" v-for="lo in lore"
+      <div class="bg-dark  border shadow-md max-w-xs md:max-w-none overflow-hidden" v-for="lo in lore"
         :key="lo.title">
         <img class="h-56 lg:h-60 w-full object-cover" :src="lo.img" alt="" />
         <div class="p-3">
