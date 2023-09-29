@@ -1,0 +1,97 @@
+{
+    "title": "BET BIG, BET SMART, BET SAFE",
+    "section_1": " Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    "ca": "2000000000000000000000000",
+    "total_supply": "200000000,0000000000000000",
+    "tax": "4.2 % Buy 6.8 % Sells",
+    "section_1_topics": [
+        {
+            "title": "AUTO PIOLOTS",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+        },
+        {
+            "title": "SECURITY",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+        }
+    ],
+    "roadmaps": [
+        {
+            "title": "FIRST DEADLINE BLUE MOON",
+            "date": "9/01/2021",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false,
+            "points": [
+                "Website Launch",
+                "Whitepaper Release",
+                "Token Launch",
+                "Marketing Campaign",
+                "CoinGecko Listing"
+            ]
+        },
+        {
+            "title": "FIRST DEADLINE BLUE MOON",
+            "date": "9/01/2021",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false,
+            "points": [
+                "Website Launch",
+                "Whitepaper Release",
+                "Token Launch",
+                "Marketing Campaign",
+                "CoinGecko Listing"
+            ]
+        }
+    ],
+    "lore": [
+        {
+            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "name": "Cathy",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false
+        },
+        {
+            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "name": "Cathy",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false
+        },
+        {
+            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "name": "Cathy",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false
+        },
+        {
+            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "name": "Cathy",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "load": false
+        }
+    ],
+    "footer": {
+        "des": "ETF",
+        "copy_right": "2023 copy right",
+        "links": [
+            {
+                "name": "About",
+                "href": "#about"
+            },
+            {
+                "name": "Tokenomics",
+                "href": "#tokenomics"
+            },
+            {
+                "name": "Roadmap",
+                "href": "#roadmap"
+            },
+            {
+                "name": "Lore",
+                "href": "#lore"
+            }
+        ]
+    }
+}

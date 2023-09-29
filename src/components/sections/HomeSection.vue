@@ -58,17 +58,17 @@
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2"
           >CA :
          </h5>
-          2000000000000000000000000
+          {{ ca }}
         </div>
         <div class="text-left">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-white pt-2"
           > TOTAL SUPPLY :</h5>
-          200,000000000
+          {{ total_supply }}
          </div>
         <div class="text-left">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-white pt-2"
           > TAX :</h5> 
-          4.2 % Buy 6.8 % Sell
+           {{ tax }}
         </div>
       </div>
       
@@ -110,19 +110,23 @@
 
 
   <section class="bg-gray-800 pt-5">
+    
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
-      <div class="border border-gray-200  shadow bg-pink-200 border-gray-700 items-center ">
+      
+      <div class="border border-gray-200  shadow bg-pink-200 border-gray-700 items-center " v-for="auto in section_1_topics" :key="auto.title">
+        <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
+        <p class="p-2 mb-3 font-normal ">
+          {{ auto.description }}
+        </p>
+      </div>
+      
+      <!-- <div class=" border border-gray-200  shadow bg-pink-200 border-gray-700 items-center">
         <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal ">
           {{ content }}
         </p>
-      </div>
-      <div class=" border border-gray-200  shadow bg-pink-200 border-gray-700 items-center">
-        <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
-        <p class="p-2 mb-3 font-normal ">
-          {{ content }}
-        </p>
-      </div>
+      </div> -->
+      
     </div>
   </section>
 
@@ -302,11 +306,11 @@
 
   ]<footer class="bg-gray from-gray-100 via-[#bce1ff] to-gray-100">
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div class="grid grid-cols-2 gap-32 lg:grid-cols-3">
         <div>
           <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" />
           <p class="max-w-xs mt-4 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+            {{ footer.des }}
           </p>
           <div class="flex mt-8 space-x-6 text-gray-600">
             <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -350,8 +354,14 @@
             </a>
           </div>
         </div>
-        <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
+        
+        
+        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500" >
+              <a v-for="link in footer.links" :key="link" class="hover:opacity-75" :href="link.href"> {{ link.name }} </a>
+        </nav>
+        
+        <div class="grid grid-cols-1 gap-2 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-2">
+          <!-- <div>
             <p class="font-medium">
               Company
             </p>
@@ -361,8 +371,8 @@
               <a class="hover:opacity-75" href> History </a>
               <a class="hover:opacity-75" href> Careers </a>
             </nav>
-          </div>
-          <div>
+          </div> -->
+          <!-- <div>
             <p class="font-medium">
               Services
             </p>
@@ -373,8 +383,8 @@
               <a class="hover:opacity-75" href> HR Consulting </a>
               <a class="hover:opacity-75" href> SEO Optimisation </a>
             </nav>
-          </div>
-          <div>
+          </div> -->
+          <!-- <div>
             <p class="font-medium">
               Helpful Links
             </p>
@@ -383,22 +393,19 @@
               <a class="hover:opacity-75" href> FAQs </a>
               <a class="hover:opacity-75" href> Live Chat </a>
             </nav>
-          </div>
+          </div> -->
           <div>
-            <p class="font-medium">
+            <!-- <p class="font-medium">
               Legal
-            </p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="hover:opacity-75" href> Privacy Policy </a>
-              <a class="hover:opacity-75" href> Terms &amp; Conditions </a>
-              <a class="hover:opacity-75" href> Returns Policy </a>
-              <a class="hover:opacity-75" href> Accessibility </a>
-            </nav>
+            </p> -->
+            
+           
+            
           </div>
         </div>
       </div>
       <p class="mt-8 text-xs text-gray-800">
-        © 2022 Comany Name
+        © {{ footer.copy_right }}
       </p>
     </div>
   </footer>
@@ -406,129 +413,30 @@
 
 <script>
 
-
-const lore = [
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false
-  },
-
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false
-  },
-
-
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false
-  },
-
-
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false
-  },
-
-
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false
-  },
-
-
-  {
-    'title': 'Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-    'name': 'Cathy',
-    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-  },
-
-
-];
-const content = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum';
-const roadmaps = [
-  {
-    'title': 'FIRST DEADLINE BLUE MOON',
-    'date': '9/01/2021',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false,
-    'points': [
-      'Website Launch',
-      'Whitepaper Release',
-      'Token Launch',
-      'Marketing Campaign',
-      'CoinGecko Listing',
-    ]
-  },
-  {
-    'title': 'Q2 2021',
-    'date': '9/01/2021',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false,
-    'points': [
-      'Website Launch',
-      'Whitepaper Release',
-      'Token Launch',
-      'Marketing Campaign',
-      'CoinGecko Listing',
-    ]
-  },
-
-  {
-    'title': 'Q2 2023',
-    'date': '9/01/2021',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false,
-    'points': [
-      'Website Launch',
-      'Whitepaper Release',
-      'Token Launch',
-      'Marketing Campaign',
-      'CoinGecko Listing',
-    ]
-  },
-
-  {
-    'title': 'Q2 2025',
-    'date': '9/01/2021',
-    'img': 'https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg',
-    'load': false,
-    'points': [
-      'Website Launch',
-      'Whitepaper Release',
-      'Token Launch',
-      'Marketing Campaign',
-      'CoinGecko Listing',
-    ]
-  },
-
-];
-
+import contents from './content.json';
+const content = contents.section_1;
+const roadmaps = contents.roadmaps;
+const lore = contents.lore;
+const title = contents.title;
+const ca = contents.ca;
+const total_supply = contents.total_supply;
+const tax = contents.tax;
+const section_1_topics  = contents.section_1_topics;
+const footer = contents.footer;
 
 export default {
   name: 'HomeSection',
   data() {
     return {
-      msg: 'BET BIG, BET SMART, BET SAFE',
+      msg: title,
       content: content,
       roadmaps: roadmaps,
       lore: lore,
+      ca: ca,
+      total_supply: total_supply,
+      tax: tax,
+      section_1_topics: section_1_topics,
+      footer: footer
     }
   }
 }
