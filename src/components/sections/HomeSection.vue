@@ -13,7 +13,7 @@
         </div>
         <div>
           <button
-            class="border-dotted border-2 border-white-500 btn dark:bg-gray-800 hover:bg-dark-200 text-green-200 font-bold py-2">BUY</button>
+            class="border-dotted border-2 border-white-500 btn bg-gray-800 hover:bg-black-200 text-green-200 font-bold py-2">BUY</button>
         </div>
       </div>
 
@@ -22,13 +22,13 @@
   </section>
 
 
-  <div class="dark:bg-pink-200">
+  <div class="bg-pink-200">
   <section id="about" class="">
 
-    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-pink-200 dark:border-gray-700">
+    <div class="rounded-t-lg w-11/12 h-14 shadow bg-pink-200 border-gray-700">
     </div>
-    <div class="items-center dark:bg-gray-800 ">
-        <div class="max-w p-10 bg-white shadow dark:bg-pink-200 dark:border-gray-700">
+    <div class="items-center bg-gray-800 ">
+        <div class="max-w p-10  shadow bg-pink-200 ">
           
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
           <div class="flex justify-center pt-3">
@@ -41,9 +41,9 @@
   </section>
 
   <section class="" id="tokenomics">
-    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-gray-800 ">
+    <div class="rounded-t-lg w-11/12 h-14 bg-gray-800 ">
     </div>
-    <div class="dark:bg-gray-800 ">
+    <div class="bg-gray-800 ">
       
       
      
@@ -55,18 +55,18 @@
         
         <div class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-20">
         <div class="text-left">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2"
           >CA :
          </h5>
           2000000000000000000000000
         </div>
         <div class="text-left">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  text-white pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-white pt-2"
           > TOTAL SUPPLY :</h5>
           200,000000000
          </div>
         <div class="text-left">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  text-white pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-white pt-2"
           > TAX :</h5> 
           4.2 % Buy 6.8 % Sell
         </div>
@@ -109,15 +109,15 @@
 </div>
 
 
-  <section class="dark:bg-gray-800 pt-5">
+  <section class="bg-gray-800 pt-5">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
-      <div class="bg-white border border-gray-200  shadow dark:bg-pink-200 dark:border-gray-700 items-center ">
+      <div class="bg-white border border-gray-200  shadow bg-pink-200 border-gray-700 items-center ">
         <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal ">
           {{ content }}
         </p>
       </div>
-      <div class="bg-white border border-gray-200  shadow dark:bg-pink-200 dark:border-gray-700 items-center">
+      <div class="bg-white border border-gray-200  shadow bg-pink-200 border-gray-700 items-center">
         <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal ">
           {{ content }}
@@ -127,7 +127,7 @@
   </section>
 
 
-  <section class="dark:bg-gray-800 p-5" id="roadmap">
+  <section class="bg-gray-800 p-5" id="roadmap">
 
     <h2 class="text-center text-white pb-2 font-bold text-4xl tracking-wider">
       ROADMAP
@@ -142,7 +142,7 @@
           <img class="lg:h-48 md:h-20 object-cover object-center" :src="roadmap.img" alt="blog cover" />
         </div>
         <div class="text-center lg:pt-12">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter text-white pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2"
           >{{ roadmap.title }}
           </h5>
           
@@ -221,13 +221,13 @@
 
 
 
-  <section class="dark:bg-gray-800 from-pink-50 to-indigo-100" id="lore">
+  <section class="bg-gray-800 from-pink-50 to-indigo-100" id="lore">
     
     
-    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow dark:bg-green-200 ">
+    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow bg-green-200 ">
     </div>
     
-    <div class="dark:dark:bg-green-200">
+    <div class="bg-green-200">
     
     <h1 class="text-center font-bold text-2xl text-white">Lore</h1>
     <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
@@ -268,7 +268,7 @@
           <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
         </div>
         <div class="text-center lg:pt-12">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-whiter  pt-2"
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter  pt-2"
           >{{ lo.title }}
           </h5>
           
