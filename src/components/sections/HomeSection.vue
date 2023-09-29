@@ -41,7 +41,7 @@
   </section>
 
   <section class="bg-pink-200" id="tokenomics">
-    <div class="rounded-t-lg w-11/12 h-14 bg-gray-800 ">
+    <div class="rounded-t-lg lg:w-11/12 h-14 bg-gray-800 w-full">
     </div>
     <div class="bg-gray-800 ">
       
@@ -104,7 +104,7 @@
 
     </div>
 
-    <hr class="border-2 border-blue-200" />
+    <hr class="border-2 border-green-200" />
   </section>
 </div>
 
@@ -168,7 +168,7 @@
          
       </div>
       
-      <hr class="border-2 border-blue-200 mb-5" />
+      <hr class="border-1 border-green-200 mb-5" />
       
     </div>
 
@@ -224,12 +224,12 @@
   <section class="bg-gray-800 from-pink-50 to-indigo-100" id="lore">
     
     
-    <div class="rounded-t-lg w-11/12 h-14 shadow bg-green-200 ">
+    <div class="rounded-t-lg w-full lg:w-11/12 h-14 shadow bg-green-200 ">
     </div>
     
     <div class="bg-green-200">
     
-    <h1 class="text-center font-bold text-2xl text-white">Lore</h1>
+    <h1 class="text-center font-bold text-5xl text-white">Lore</h1>
     <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
 
     <!-- <div class="grid justify-center md:grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-7 my-10">
@@ -260,7 +260,7 @@
 
     </div> -->
     
-    <hr class="border-2 border-blue-200 mb-5" />
+    <hr class="border-2 border-dark-200 mb-5" />
       <div class="pt-2"  v-for="lo in lore" :key="lo.title">
         
       <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium  text-left px-10">
@@ -290,7 +290,7 @@
          
       </div>
       
-      <hr class="border-2 border-blue-200 mb-5" />
+      <hr class="border-2 border-grey-800 mb-5" />
       
     </div>
   </div>
