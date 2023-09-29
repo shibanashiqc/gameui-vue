@@ -22,12 +22,12 @@
   </section>
 
 
-  <div class="bg-pink-200">
+  <div class="bg-pink-200 rounded-lg">
   <section id="about" class="">
 
-    <div class="rounded-t-lg w-11/12 h-14 shadow bg-pink-200 border-gray-700">
+    <div class="rounded-t-lg  h-14 shadow bg-pink-200 border-gray-700">
     </div>
-    <div class="items-center bg-gray-800 ">
+    <div class="items-center">
         <div class="max-w p-10  shadow bg-pink-200 ">
           
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
@@ -157,7 +157,7 @@
           </div>
           
          </div>
-        <div class="text-center lg:pt-12 ">
+        <div class="text-center lg:px-20 lg:pt-12 px-28">
           <!-- arrow  -->
           <div class="tab">
           <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
@@ -279,7 +279,7 @@
           </div>
           
          </div>
-        <div class="text-center lg:pt-12 ">
+        <div class="text-center lg:px-20 lg:pt-12 px-28">
           <!-- arrow  -->
           <div class="tab">
           <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
