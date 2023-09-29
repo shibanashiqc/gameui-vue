@@ -40,7 +40,7 @@
     </div>
   </section>
 
-  <section class="" id="tokenomics">
+  <section class="bg-pink-200" id="tokenomics">
     <div class="rounded-t-lg w-11/12 h-14 bg-gray-800 ">
     </div>
     <div class="bg-gray-800 ">
