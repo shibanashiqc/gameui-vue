@@ -111,13 +111,13 @@
 
   <section class="bg-gray-800 pt-5">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
-      <div class="bg-white border border-gray-200  shadow bg-pink-200 border-gray-700 items-center ">
+      <div class="border border-gray-200  shadow bg-pink-200 border-gray-700 items-center ">
         <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal ">
           {{ content }}
         </p>
       </div>
-      <div class="bg-white border border-gray-200  shadow bg-pink-200 border-gray-700 items-center">
+      <div class=" border border-gray-200  shadow bg-pink-200 border-gray-700 items-center">
         <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">AUTO PIOLOTS</h3>
         <p class="p-2 mb-3 font-normal ">
           {{ content }}
@@ -224,7 +224,7 @@
   <section class="bg-gray-800 from-pink-50 to-indigo-100" id="lore">
     
     
-    <div class="rounded-t-lg w-11/12 h-14 bg-white shadow bg-green-200 ">
+    <div class="rounded-t-lg w-11/12 h-14 shadow bg-green-200 ">
     </div>
     
     <div class="bg-green-200">
