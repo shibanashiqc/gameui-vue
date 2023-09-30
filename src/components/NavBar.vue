@@ -1,9 +1,9 @@
 <template>
   
   <nav class="backdrop-blur bg-transparent fixed w-full z-23 top-0 left-0">
-    <div class="backdrop-blur max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 lg:p-6">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 lg:p-6">
       <a href="https://flowbite.com/" class="flex items-center">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white x-font">ETF</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-green-200 x-font">ETF</span>
       </a>
       <div class="flex md:order-2 space-x-0.5">
         
