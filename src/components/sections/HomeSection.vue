@@ -1,5 +1,7 @@
 <template>
-  <section class="pt-16 pb-25 min-h-screen-75 space text-center">
+  
+  <!-- <div class="fade-in style"> -->
+  <section class="pt-16 pb-25 min-h-screen-75 space text-center fade-in">
 
     <div class="text-white py-20 px-10">
 
@@ -33,7 +35,7 @@
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
           <div class="flex justify-center pt-3">
           <div class="bg-white mt-10 w-full two">
-          <p class="mb-3 font-normal p-5"> {{ content }}</p>
+          <p class="mb-3 font-normal p-5 fade-in"> {{ content }}</p>
           </div>
         </div>
       </div>
@@ -53,7 +55,7 @@
         
         
         
-        <div class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-20">
+        <div class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-20 fade-in">
         <div class="text-left">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2"
           >CA :
@@ -109,13 +111,13 @@
 </div>
 
 
-  <section class="bg-gray-800 pt-5">
+  <section class="bg-gray-800 pt-5 ">
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-3">
       
       <div class="border border-gray-200  shadow bg-pink-200 border-gray-700 items-center " v-for="auto in section_1_topics" :key="auto.title">
-        <h3 class="mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
-        <p class="p-2 mb-3 font-normal ">
+        <h3 class="fade-in mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
+        <p class="fade-in p-2 mb-3 font-normal ">
           {{ auto.description }}
         </p>
       </div>
@@ -304,7 +306,7 @@
 
 
 
-  ]<footer class="bg-gray from-gray-100 via-[#bce1ff] to-gray-100">
+  <footer class="bg-gray from-gray-100 via-[#bce1ff] to-gray-100">
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 gap-32 lg:grid-cols-3">
         <div>
@@ -409,6 +411,7 @@
       </p>
     </div>
   </footer>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -647,5 +650,75 @@ export default {
   }
 }
 
+
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/* The style below is just for the appearance of the example div */
+
+.style {
+  width:90vw; height:90vh;
+  text-align:center;
+  padding-top:calc(50vh - 50px);
+  margin-left:5vw;
+  /* border:4px double #F00; */
+  /* background-color:#000; */
+}
+.style p {
+  color:#fff;
+  font-size:50px;
+}
 
 </style>
