@@ -5,7 +5,7 @@
 
     <div class="text-white py-20 px-10">
 
-      <span class="font-xl">
+      <span class="font-xl  text-green-200">
         {{ msg }}
       </span>
 
@@ -43,7 +43,7 @@
   </section>
 
   <section class="bg-pink-200" id="tokenomics">
-    <div class="rounded-t-lg lg:w-11/12 h-14 bg-gray-800 w-full">
+    <div class="rounded-t-lg  h-14 bg-gray-800 w-full">
     </div>
     <div class="bg-gray-800 ">
       
@@ -230,7 +230,7 @@
   <section class="bg-gray-800 from-pink-50 to-indigo-100" id="lore">
     
     
-    <div class="rounded-t-lg w-full lg:w-11/12 h-14 shadow bg-green-200 ">
+    <div class="rounded-t-lg w-full  h-14 shadow bg-green-200 ">
     </div>
     
     <div class="bg-green-200">
@@ -538,7 +538,8 @@ export default {
  
 }
   .font-xl {
-    font-size: 7rem;
+    font-size: 10rem;
+    text-align: center;
   }
 }
 
