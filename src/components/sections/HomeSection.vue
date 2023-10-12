@@ -38,7 +38,7 @@
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
           <div class="flex justify-center pt-3 lg:px-32 ">
             <div class="bg-white mt-10 w-full">
-              <p class="mb-3 font-normal p-10 fade-in" style="font-size: 26px;"> {{ content }}</p>
+              <p class="mb-3 font-normal p-10 fade-in" style="font-size: 16px;"> {{ content }}</p>
             </div>
           </div>
         </div>
@@ -54,12 +54,12 @@
 
 
 
-        <div class="pb-5 pt-20 px-4 rounded-md w-full">
+        <div class="pb-5 pt-20 lg:px-4 rounded-md w-full">
 
 
 
           <div
-            class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-20 fade-in">
+            class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10 lg:px-20 fade-in">
             <div class="text-left">
               <h5 style="font-size: 45px;"
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-green-200 pt-2">CA :
