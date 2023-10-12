@@ -176,7 +176,7 @@
           </ul>
 
         </div>
-        <div class="text-center lg:px-20 lg:pt-12 px-28">
+        <div class="text-center lg:px-20 lg:pt-12 px-20">
           <!-- arrow  -->
           <div class="tab">
             <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
