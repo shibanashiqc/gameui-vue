@@ -1,10 +1,10 @@
 <template>
   <!-- <div class="fade-in style"> -->
-  <section class="pt-16 pb-25 min-h-screen-75 space text-center fade-in pb-10">
+  <section class="pt-16 pb-25 min-h-screen-75 space text-center  pb-10">
 
     <div class="text-white py-3 px-10">
 
-      <span class="font-xl  text-white">
+      <span class="font-xl fade-in text-white">
         {{ msg }}
       </span>
 
@@ -63,7 +63,7 @@
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
           <div class="flex justify-center pt-3 lg:px-32 ">
             <div class="bg-white mt-10 w-full">
-              <p class="mb-3 font-normal p-10 fade-in" style="font-size: 16px;"> {{ content }}</p>
+              <p class="mb-3 font-normal p-10 " style="font-size: 16px;"> {{ content }}</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
 
 
           <div
-            class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10 lg:px-20 fade-in">
+            class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10 lg:px-20 ">
             <div class="text-left">
               <h5 style="font-size: 45px;"
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">CA :
@@ -148,8 +148,8 @@
 
       <div class="border border-gray-200  shadow bg-pink-300 border-gray-700 items-center "
         v-for="auto in section_1_topics" :key="auto.title">
-        <h3 class="fade-in mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
-        <p class="fade-in p-2 mb-3 font-normal " style="font-size: 18px;" v-html="auto.description">
+        <h3 class=" mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
+        <p class=" p-2 mb-3 font-normal " style="font-size: 18px;" v-html="auto.description">
 
         </p>
       </div>
