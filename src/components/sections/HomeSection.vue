@@ -42,7 +42,7 @@
     <div class="bg-white shadow-lg shadow-cyan-500/50 rounded">
       <div class="text-black p-4  w-full ">
         <p class="awesome">
-          ELBET is a Telegram-based 1v1 wagering game, where players stake their bets on elemental powers.
+          ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers.
         </p>
       </div>
     </div>
