@@ -4,7 +4,7 @@
 
     <div class="text-white py-20 px-10">
 
-      <span class="font-xl  text-green-200">
+      <span class="font-xl  text-white">
         {{ msg }}
       </span>
 
@@ -62,18 +62,18 @@
             class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10 lg:px-20 fade-in">
             <div class="text-left">
               <h5 style="font-size: 45px;"
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-green-200 pt-2">CA :
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">CA :
               </h5>
               {{ ca }}
             </div>
             <div class="text-left">
               <h5 style="font-size: 45px;"
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-green-200 pt-2"> TOTAL SUPPLY :</h5>
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2"> TOTAL SUPPLY :</h5>
               {{ total_supply }}
             </div>
             <div class="text-left lg:pl-20">
               <h5 style="font-size: 45px;"
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-green-200 pt-2"> TAX :</h5>
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2"> TAX :</h5>
               {{ tax }}
             </div>
           </div>
@@ -142,7 +142,7 @@
 
   <section class="bg-[#101021] lg:p-32 p-12" id="roadmap">
 
-    <h2 class="text-center text-green-200 pb-2 font-bold text-4xl tracking-wider">
+    <h2 class="text-center text-white pb-2 font-bold text-4xl tracking-wider">
       ROADMAP
     </h2>
     <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
@@ -161,7 +161,7 @@
 
           <!-- <div class="lg:px-10" v-if="roadmap.load">
             <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
-              <a href="#" class="text-green-200  md:mb-2 lg:mb-0">
+              <a href="#" class="text-white  md:mb-2 lg:mb-0">
                 <p class="inline-flex items-center">
                   * {{ point }}
                 </p>
@@ -244,7 +244,7 @@
           <div class="p-4">
 
             <div class="flex items-center flex-wrap" v-for="point in roadmap.points" :key="point">
-              <a href="#" class="text-green-200  md:mb-2 lg:mb-0">
+              <a href="#" class="text-white  md:mb-2 lg:mb-0">
                 <p class="inline-flex items-center">
                   * {{ point }}
                 </p>
@@ -302,7 +302,7 @@
           </p>
 
 
-          <button class="mt-3 block text-green-200" href="#" v-on:click="lo.load = !lo.load">
+          <button class="mt-3 block text-white" href="#" v-on:click="lo.load = !lo.load">
             Read More </button>
         </div>
       </div>
