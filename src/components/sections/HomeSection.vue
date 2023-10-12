@@ -1,8 +1,8 @@
 <template>
   <!-- <div class="fade-in style"> -->
-  <section class="pt-16 pb-25 min-h-screen-75 space text-center fade-in">
+  <section class="pt-16 pb-25 min-h-screen-75 space text-center fade-in pb-10">
 
-    <div class="text-white py-20 px-10">
+    <div class="text-white py-3 px-10">
 
       <span class="font-xl  text-white">
         {{ msg }}
@@ -20,9 +20,24 @@
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
+          
+         
       </div>
+      
 
     </div>
+    
+    
+      <div class="px-3">
+        
+      
+      <div class="bg-white card text-black p-4  w-full border-dotted border-2 ">
+            Elemental Bet (ELBET) is a Telegram-based 1v1 wagering game, where players stake their bets on elemental powers.
+          </div>
+          
+          
+        </div>
+        
 
   </section>
 
