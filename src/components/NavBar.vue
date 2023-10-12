@@ -1,6 +1,6 @@
 <template>
   
-  <nav class="backdrop-blur bg-transparent fixed w-full z-23 top-0 left-0">
+  <nav class="backdrop-blur fixed w-full z-23 top-0 left-0 bg-black/50">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 lg:p-6">
       <a href="https://flowbite.com/" class="flex items-center">
         <span class="self-center text-2xl font-semibold whitespace-nowrap text-green-200 x-font">ETF</span>

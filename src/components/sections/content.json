@@ -1,31 +1,31 @@
 {
     "title": "BET BIG, BET SMART, BET SAFE",
-    "section_1": " Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    "section_1": " ETF Token stands as the bridge between memetic value and one of the most pivotal catalysts the cryptocurrency realm has ever witnessed. Firmly grasping the GambleFi concept, ETF Token is committed to furnishing automatic rewards for every ETF holder, distributed in the form of ETF/ETH LP tokens. These coveted LP rewards then open doors to exclusive staking pools, where you can confidently stake your convictions on the forthcoming SEC verdicts concerning the spot Bitcoin ETF. It's an opportunity to bet boldly. So Bet ETF.",
     "ca": "2000000000000000000000000",
     "total_supply": "200000000,0000000000000000",
     "tax": "4.2 % Buy 6.8 % Sells",
     "section_1_topics": [
         {
-            "title": "AUTO PIOLOTS",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+            "title": "AUTO LP REFLECTIONS:",
+            "description": "Half of all transaction fees are automatically added to the $ETF/WETH liquidity pool and redistributed back to ALL holders as UniV2 tokens. <br> <br> No staking required-all $ETF holders automatically earn these passive rewards which may be manually claimed via etherscan or in our dashboard, or automatically whenever holders buy, sell, or transfer any amount of tokens."
         },
         {
-            "title": "SECURITY",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since"
+            "title": "LP STAKING & GAMIFICATION:",
+            "description": "$ETF holders can use their LP rewards tokens to participate in the gamification of the pending spot BTC ETF application by utilizing unique betting vaults."
         }
     ],
     "roadmaps": [
         {
             "title": "FIRST DEADLINE BLUE MOON",
             "date": "9/01/2021",
-            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "img": "https://static.tildacdn.com/tild3936-6332-4132-a432-303661663130/ezgifcom-optimize.gif",
             "load": false,
             "points": [
-                "Website Launch",
-                "Whitepaper Release",
-                "Token Launch",
-                "Marketing Campaign",
-                "CoinGecko Listing"
+                "$ETF the token stealth launch",
+                "Automatic LP rewards to $ETF holders begin",
+                "Initial liquidity lock 6 months",
+                "Dapp to view and claim LP rewards",
+                "Blumewn cult formation"
             ]
         },
         {

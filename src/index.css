@@ -14,6 +14,25 @@ body {
 }
 
 @font-face {
+     font-family: 'up';
+     src: url("./assets/fonts/1up.ttf");
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+    font-family: 'LLPIXEL3';
+    src: url("./assets/fonts/LLPIXEL3.ttf");
+    /* font-weight: 100; */
+}
+
+@font-face {
+    font-family: 'G7_Cube_5';
+    src: url("./assets/fonts/G7_Cube_5.ttf");
+    /* font-weight: 100; */
+}
+
+@font-face {
     font-family: 'Flicker';
     src:url('./assets/fonts/Flicker.ttf.woff') format('woff'),
         url('./assets/fonts/Flicker.ttf.svg#Flicker') format('svg'),
@@ -24,5 +43,5 @@ body {
 }
 
 :root {
-  font-family: Flicker, sans-serif;
+  font-family: LLPIXEL3, sans-serif;
 }
