@@ -9,35 +9,45 @@
       </span>
 
       <div class="grid grid-cols-1 md:grid-cols-6 gap-4 x-gap pr-3 py-4">
+        
+        
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
             class="btn border-dotted border-2 border-white-500  text-pink-300 font-bold py-2">CHART</button>
         </div>
-        <div>
+        
+        
+        <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
             class="btn border-dotted border-2 border-pink-500 bg-green-200  text-black font-bold py-2">BUY</button>
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
-          
-         
+        
+        
+        <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
+          <button style="font-size: 21px;"
+            class="btn border-dotted border-2 border-white-500  text-pink-300 font-bold py-2">CHART</button>
+        </div>
+
+
       </div>
-      
+
 
     </div>
-    
-    
-      <div class="px-3">
-        
-      
-      <div class="bg-white card text-black p-4  w-full border-dotted border-2 ">
-            Elemental Bet (ELBET) is a Telegram-based 1v1 wagering game, where players stake their bets on elemental powers.
-          </div>
-          
-          
-        </div>
-        
+
+
+    <div class="px-3 ">
+    <div class="bg-white shadow-lg shadow-cyan-500/50 rounded">
+      <div class="text-black p-4  w-full ">
+        <p class="awesome">
+          ELBET is a Telegram-based 1v1 wagering game, where players stake their bets on elemental powers.
+        </p>
+      </div>
+    </div>
+  </div>
+
 
   </section>
 
@@ -82,13 +92,13 @@
               {{ ca }}
             </div>
             <div class="text-left">
-              <h5 style="font-size: 45px;"
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2"> TOTAL SUPPLY :</h5>
+              <h5 style="font-size: 45px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
+                TOTAL SUPPLY :</h5>
               {{ total_supply }}
             </div>
             <div class="text-left lg:pl-20">
-              <h5 style="font-size: 45px;"
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2"> TAX :</h5>
+              <h5 style="font-size: 45px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
+                TAX :</h5>
               {{ tax }}
             </div>
           </div>
