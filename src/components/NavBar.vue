@@ -1,13 +1,13 @@
 <template>
   <nav class="backdrop-blur fixed w-full z-23 top-0 left-0 bg-black/80">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 lg:p-3">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 lg:p-3">
       <a href="https://flowbite.com/" class="flex items-center">
         <span class="self-center text-2xl font-semibold whitespace-nowrap text-white x-font">ETF</span>
       </a>
 
       
       <a href="#" class="lg:invisible">
-      <img src="../assets/img-removebg-preview.png" alt="telegram" class="w-24 h-18">
+      <img src="../assets/img-removebg-preview.png" alt="telegram" class="w-28 h-18">
       </a>
 
       <!-- <div class="bg-blue-500 rounded-lg lg:invisible">
