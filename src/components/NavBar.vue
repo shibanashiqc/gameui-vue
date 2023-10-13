@@ -7,7 +7,7 @@
 
       
       <a href="#" class="lg:invisible">
-      <img src="../assets/img-removebg-preview.png" alt="telegram" class="w-38 h-24">
+      <img src="../assets/img-removebg-preview.png" alt="telegram" class="w-24 h-18">
       </a>
 
       <!-- <div class="bg-blue-500 rounded-lg lg:invisible">
