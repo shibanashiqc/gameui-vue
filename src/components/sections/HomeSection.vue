@@ -69,7 +69,7 @@
             </div>
           </div> -->
 
-          <section class="lg:p-32 p-10" id="roadmap">
+          <section class="lg:p-32 p-10">
 
             <h2 class="text-center text-white pb-2 font-bold text-4xl tracking-wider">
               ELEMENTS
@@ -106,14 +106,9 @@
                   </ul>
 
                 </div>
-                <div class="text-center lg:px-20 lg:pt-12 px-20">
-                  <!-- arrow  -->
-                  <div class="tab">
-                    <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
-                    <!-- <label for="{{ point }}" :class="roadmap.load ? 'tab__labels' : 'tab__label'" v-on:click="roadmap.load = !roadmap.load" ></label> -->
-
+                <div class="lg:px-20 lg:pt-12 px-20">
+                  
                     <div v-on:click="lo.load = !lo.load">
-
                       <div v-if="lo.load">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none">
                           <path
@@ -133,14 +128,6 @@
                         </svg>
 
                       </div>
-
-
-                    </div>
-
-
-
-
-
 
                   </div>
                 </div>
@@ -330,13 +317,8 @@
 
         </div>
         <div class="text-center lg:px-20 lg:pt-12 px-20">
-          <!-- arrow  -->
-          <div class="tab">
-            <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
-            <!-- <label for="{{ point }}" :class="roadmap.load ? 'tab__labels' : 'tab__label'" v-on:click="roadmap.load = !roadmap.load" ></label> -->
-
+          
             <div v-on:click="roadmap.load = !roadmap.load">
-
               <div v-if="roadmap.load">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none">
                   <path
@@ -356,14 +338,6 @@
                 </svg>
 
               </div>
-
-
-            </div>
-
-
-
-
-
 
           </div>
         </div>
