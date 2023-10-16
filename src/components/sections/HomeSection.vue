@@ -106,11 +106,14 @@
                   </ul>
 
                 </div>
+                
+              
+                
                 <div class="lg:px-20 lg:pt-12 px-20 pl-18">
                   
                     <div v-on:click="lo.load = !lo.load">
                       <div v-if="lo.load">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none">
                           <path
                             d="M102.057 0.999996C102.827 -0.333337 104.751 -0.333333 105.521 1L206.846 176.5C207.616 177.833 206.654 179.5 205.114 179.5H2.4641C0.924496 179.5 -0.0377495 177.833 0.732051 176.5L102.057 0.999996Z"
                             fill="#ffffff" />
@@ -280,12 +283,11 @@
   </section>
 
 
-  <section class="bg-[#101021] lg:p-32 p-12" id="roadmap">
+  <!-- <section class="bg-[#101021] lg:p-32 p-12" id="roadmap">
 
     <h2 class="text-center text-white pb-2 font-bold text-4xl tracking-wider">
       ROADMAP
     </h2>
-    <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
 
     <hr class="border-1 border-green-200 mb-5" />
     <div class="pt-2" v-for="roadmap in roadmaps" :key="roadmap.title">
@@ -299,15 +301,7 @@
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{ roadmap.title }}
           </h5>
 
-          <!-- <div class="lg:px-10" v-if="roadmap.load">
-            <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
-              <a href="#" class="text-white  md:mb-2 lg:mb-0">
-                <p class="inline-flex items-center">
-                  * {{ point }}
-                </p>
-              </a>
-            </div>
-          </div> -->
+       
 
           <ul class="lg:px-10" v-if="roadmap.load">
             <li v-for="point in roadmap.points" :key="point" class="text-white-200  md:mb-2 lg:mb-0 list-disc">
@@ -345,54 +339,13 @@
       </div>
 
       <hr class="border-1 border-green-200 mb-5" />
-
     </div>
 
 
-    <!-- <div class="flex flex-wrap -m-4">
-
-      <div class="p-4 md:w-1/3" v-for="roadmap in roadmaps" :key="roadmap.title">
-        <div class="h-full border-2 border-gray-200 border-opacity-60  overflow-hidden">
-          <div class="w-full">
-            <div class="w-full flex p-2">
-              <div class="p-2 ">
-                <img :src="roadmap.img" alt="author" class="w-10 h-10 rounded-full overflow-hidden" />
-              </div>
-              <div class="pl-2 pt-2 text-white">
-                <p class="font-bold">{{ roadmap.title }}</p>
-                <p class="text-xs">{{ roadmap.date }}</p>
-              </div>
-            </div>
-          </div>
-
-
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="roadmap.img" alt="blog cover" />
-
-          <div class="p-4">
-
-            <div class="flex items-center flex-wrap" v-for="point in roadmap.points" :key="point">
-              <a href="#" class="text-white  md:mb-2 lg:mb-0">
-                <p class="inline-flex items-center">
-                  * {{ point }}
-                </p>
-              </a>
-
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
-    </div> -->
 
 
 
-
-
-
-
-  </section>
+  </section> -->
 
 
 
@@ -446,7 +399,7 @@
 
   <footer class="bg-[#101021] from-gray-100 via-[#bce1ff] to-gray-100">
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-      <div class="grid grid-cols-2 gap-32 lg:grid-cols-3">
+      <div class="grid grid-cols-2  lg:grid-cols-3">
         <div>
           <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" />
           <p class="max-w-xs mt-4 text-sm text-gray-600">
