@@ -106,7 +106,7 @@
                   </ul>
 
                 </div>
-                <div class="lg:px-20 lg:pt-12 px-20">
+                <div class="lg:px-20 lg:pt-12 px-20 pl-18">
                   
                     <div v-on:click="lo.load = !lo.load">
                       <div v-if="lo.load">
