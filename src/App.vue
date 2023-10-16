@@ -1,12 +1,15 @@
 <template>
-  <NavBar/>
-  <HomeSection/>
+  <!-- <NavBar/>
+  <HomeSection/> -->
+  <router-view/>
    
 </template>
 
-<script>
+<!-- <script>
 import NavBar from './components/NavBar.vue';
 import HomeSection from './components/sections/HomeSection.vue';
+
+
 export default {
   name: 'App',
   components: {
@@ -14,4 +17,4 @@ export default {
     HomeSection,
   }
 }
-</script>
+</script> -->

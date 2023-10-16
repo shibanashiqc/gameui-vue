@@ -1,4 +1,6 @@
 <template>
+  <NavBar />
+
   <!-- <div class="fade-in style"> -->
   <section class="pt-16 pb-25 min-h-screen-75 space text-center  pb-10">
 
@@ -9,14 +11,14 @@
       </span>
 
       <div class="grid grid-cols-1 md:grid-cols-6 gap-4 x-gap pr-3 py-4">
-        
-        
+
+
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-white-500  text-pink-300 font-bold py-2">CHART</button>
+            class="btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
-        
-        
+
+
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
@@ -24,11 +26,11 @@
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
-        
-        
+
+
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-white-500  text-pink-300 font-bold py-2">CHART</button>
+            class="btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
 
 
@@ -39,38 +41,164 @@
 
 
     <div class="px-3 ">
-    <div class="bg-white shadow-lg shadow-cyan-500/50 rounded">
-      <div class="text-black p-4  w-full ">
-        <p class="awesome">
-          ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers.
-        </p>
+      <div class="bg-white shadow-lg shadow-cyan-500/50 rounded-md">
+        <div class="text-black p-10  w-full ">
+          <p class="awesome">
+            ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
 
   </section>
 
 
-  <div class="bg-pink-300 rounded-lg">
+  <div class="bg-[#057bf9] rounded-lg">
     <section id="about" class="">
 
-      <div class="rounded-t-lg  h-14 shadow bg-pink-300 border-gray-700">
+      <div class="rounded-t-lg  h-14 shadow bg-[#057bf9] border-gray-700">
       </div>
       <div class="items-center">
-        <div class="max-w p-10  shadow bg-pink-300 ">
+        <div class="max-w   shadow bg-[#057bf9] ">
 
           <!-- <div class="bg-gray-800 w-12 h-9" style="position: relative;left: 12%;top: 88px;"></div> -->
-          <div class="flex justify-center pt-3 lg:px-32 ">
+          <!-- <div class="flex justify-center pt-3 lg:px-32 ">
             <div class="bg-white mt-10 w-full">
               <p class="mb-3 font-normal p-10 " style="font-size: 16px;"> {{ content }}</p>
             </div>
+          </div> -->
+
+          <section class="lg:p-32 p-10" id="roadmap">
+
+            <h2 class="text-center text-white pb-2 font-bold text-4xl tracking-wider">
+              ELEMENTS
+            </h2>
+            <!-- <hr class="border-2 border-blue-200 mb-5" /> -->
+
+            <hr class="border-1 border-green-200 mb-5" />
+            <div class="pt-2" v-for="lo in lore" :key="lo.title">
+
+              <div
+                class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+                <div class="text-center">
+                  <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
+                </div>
+                <div class="text-center lg:pt-12">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
+                    lo.title }}
+                  </h5>
+
+                  <!-- <div class="lg:px-10" v-if="roadmap.load">
+        <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
+          <a href="#" class="text-white  md:mb-2 lg:mb-0">
+            <p class="inline-flex items-center">
+              * {{ point }}
+            </p>
+          </a>
+        </div>
+      </div> -->
+
+                  <ul class="lg:px-10" v-if="lo.load">
+                    <li v-for="point in lo.points" :key="point" class="text-white-200  md:mb-2 lg:mb-0 list-disc">
+                      {{ point }}
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="text-center lg:px-20 lg:pt-12 px-20">
+                  <!-- arrow  -->
+                  <div class="tab">
+                    <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
+                    <!-- <label for="{{ point }}" :class="roadmap.load ? 'tab__labels' : 'tab__label'" v-on:click="roadmap.load = !roadmap.load" ></label> -->
+
+                    <div v-on:click="lo.load = !lo.load">
+
+                      <div v-if="lo.load">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none">
+                          <path
+                            d="M102.057 0.999996C102.827 -0.333337 104.751 -0.333333 105.521 1L206.846 176.5C207.616 177.833 206.654 179.5 205.114 179.5H2.4641C0.924496 179.5 -0.0377495 177.833 0.732051 176.5L102.057 0.999996Z"
+                            fill="#94E6BE" />
+                        </svg>
+                      </div>
+
+                      <div v-else>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 208 180" fill="none"
+                          version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,0,0)">
+                          <path
+                            d="M102.057 0.999996C102.827 -0.333337 104.751 -0.333333 105.521 1L206.846 176.5C207.616 177.833 206.654 179.5 205.114 179.5H2.4641C0.924496 179.5 -0.0377495 177.833 0.732051 176.5L102.057 0.999996Z"
+                            fill="#94E6BE"></path>
+                        </svg>
+
+                      </div>
+
+
+                    </div>
+
+
+
+
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <hr class="border-1 border-green-200 mb-5" />
+
+            </div>
+
+
+            <!-- <div class="flex flex-wrap -m-4">
+
+  <div class="p-4 md:w-1/3" v-for="roadmap in roadmaps" :key="roadmap.title">
+    <div class="h-full border-2 border-gray-200 border-opacity-60  overflow-hidden">
+      <div class="w-full">
+        <div class="w-full flex p-2">
+          <div class="p-2 ">
+            <img :src="roadmap.img" alt="author" class="w-10 h-10 rounded-full overflow-hidden" />
           </div>
+          <div class="pl-2 pt-2 text-white">
+            <p class="font-bold">{{ roadmap.title }}</p>
+            <p class="text-xs">{{ roadmap.date }}</p>
+          </div>
+        </div>
+      </div>
+
+
+      <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="roadmap.img" alt="blog cover" />
+
+      <div class="p-4">
+
+        <div class="flex items-center flex-wrap" v-for="point in roadmap.points" :key="point">
+          <a href="#" class="text-white  md:mb-2 lg:mb-0">
+            <p class="inline-flex items-center">
+              * {{ point }}
+            </p>
+          </a>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</div> -->
+
+
+
+          </section>
+
+
         </div>
       </div>
     </section>
 
-    <section class="bg-pink-300" id="tokenomics">
+    <section class="bg-[#057bf9]" id="tokenomics">
       <div class="rounded-t-lg  h-14 bg-[#101021] w-full">
       </div>
       <div class="bg-[#101021] ">
@@ -144,9 +272,9 @@
 
   <section class="bg-[#101021] pt-5 lg:px-20">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-2 text-white">
 
-      <div class="border border-gray-200  shadow bg-pink-300 border-gray-700 items-center "
+      <div class="border border-gray-200  shadow bg-[#057bf9] border-gray-700 items-center "
         v-for="auto in section_1_topics" :key="auto.title">
         <h3 class=" mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
         <p class=" p-2 mb-3 font-normal " style="font-size: 18px;" v-html="auto.description">
@@ -298,44 +426,11 @@
   <section class="bg-[#101021] from-pink-50 to-indigo-100" id="lore">
 
 
-    <div class="rounded-t-lg w-full  h-14 shadow bg-green-200 ">
-    </div>
-
-    <div class="bg-green-200 p-12 lg:p-20">
-
-
-      <!-- <h1 class="text-center font-bold text-5xl text-white">Lore</h1> -->
-      <hr class="border-1 border-black mb-5" />
-
-      <!-- <div class="grid justify-center md:grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-7 my-10">
-     
-      <div class="bg-dark  border shadow-md max-w-xs md:max-w-none overflow-hidden" v-for="lo in lore"
-        :key="lo.title">
-        <img class="h-56 lg:h-60 w-full object-cover" :src="lo.img" alt="" />
-        <div class="p-3">
-        
-          <h3 class="font-semibold text-xl leading-6 text-white my-2">
-            {{ lo.title }}
-          </h3>
-
-          <p class="paragraph-normal text-blue-600 text-overflow-handle" v-if="!lo.load">
-            {{ lo.desc }}
-          </p>
-
-          <p class="text-blue-600" v-if="lo.load">
-            {{ lo.desc }}
-          </p>
-
-
-          <button class="mt-3 block text-white" href="#" v-on:click="lo.load = !lo.load">
-            Read More </button>
-        </div>
-      </div>
-
-
+    <!-- <div class="rounded-t-lg w-full  h-14 shadow bg-green-200 ">
     </div> -->
 
-      <!-- <hr class="border-2 border-dark-200 mb-5" /> -->
+    <!-- <div class="bg-green-200 p-12 lg:p-20">
+      <hr class="border-1 border-black mb-5" />
       <div class="pt-2" v-for="lo in lore" :key="lo.title">
 
         <div
@@ -355,9 +450,7 @@
 
           </div>
           <div class="text-center lg:px-20 lg:pt-12 px-28">
-            <!-- arrow  -->
             <div class="tab">
-              <!-- <input type="checkbox" name="accordion-1" :id="point" class="tab__checkbox" v-on:click="roadmap.load = !roadmap.load" /> -->
               <label for="{{ lo }}" :class="lo.load ? 'tab__labels' : 'tab__label'"
                 v-on:click="lo.load = !lo.load"></label>
 
@@ -368,10 +461,9 @@
 
         <hr class="border-1 border-black mb-5" />
 
-        <!-- <hr class="border-2 border-grey-800 mb-5" /> -->
 
       </div>
-    </div>
+    </div> -->
 
 
   </section>
@@ -488,6 +580,7 @@
 
 <script>
 
+import NavBar from '../NavBar.vue';
 import contents from './content.json';
 const content = contents.section_1;
 const roadmaps = contents.roadmaps;
@@ -501,6 +594,9 @@ const footer = contents.footer;
 
 export default {
   name: 'HomeSection',
+  components: {
+    NavBar
+  },
   data() {
     return {
       msg: title,
