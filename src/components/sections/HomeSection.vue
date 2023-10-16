@@ -22,7 +22,7 @@
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-pink-500 bg-green-200  text-black font-bold py-2">BUY</button>
+            class="btn border-dotted border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
@@ -85,7 +85,7 @@
                   <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
                 </div>
                 <div class="text-center lg:pt-12">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
+                  <h5 class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
                     lo.title }}
                   </h5>
 
