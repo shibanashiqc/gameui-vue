@@ -1,9 +1,10 @@
 {
-    "title": "BET BIG, BET SMART, BET SAFE",
+    "logo" : "ELBET",
+    "title": "BET BIG ON ELEMENTALS",
     "section_1": " ETF Token stands as the bridge between memetic value and one of the most pivotal catalysts the cryptocurrency realm has ever witnessed. Firmly grasping the GambleFi concept, ETF Token is committed to furnishing automatic rewards for every ETF holder, distributed in the form of ETF/ETH LP tokens. These coveted LP rewards then open doors to exclusive staking pools, where you can confidently stake your convictions on the forthcoming SEC verdicts concerning the spot Bitcoin ETF. It's an opportunity to bet boldly. So Bet ETF.",
     "ca": "2000000000000000000000000",
-    "total_supply": "200000000,0000000000000000",
-    "tax": "4.2 % Buy 6.8 % Sells",
+    "total_supply": "1,000,000,000",
+    "tax": "5% Buy 5% Sell",
     "section_1_topics": [
         {
             "title": "AUTO LP REFLECTIONS:",
@@ -44,10 +45,26 @@
     ],
     "lore": [
         {
-            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "title": "Flames of Fury 🔥",
             "name": "Cathy",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "desc": "Dominance: Scorching 🌿 and melting ⛓️ Weakness: Doused by 💧 and blocked by 🪨",
+            "img": "fire.png",
+            "load": false,
+            "color": "#ffb439",
+            "points" : [
+                "Website Launch",
+                "Whitepaper Release",
+                "Token Launch",
+                "Marketing Campaign",
+                "CoinGecko Listing"
+            ]
+        },
+        {
+            "title": "Liquid Legacy 💧",
+            "name": "Cathy",
+            "desc": "Dominance: Quenching 🔥 and corroding ⛓️   Weakness: Absorbed by 🌿 and halted by 🪨",
+            "img": "water.png",
+            "color" : "#80dbff",
             "load": false,
             "points" : [
                 "Website Launch",
@@ -58,10 +75,11 @@
             ]
         },
         {
-            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "title": "Flora Force 🌿",
             "name": "Cathy",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "desc": "Dominance: Drinking 💧 and fracturing 🪨  Weakness: Withered by 🔥 and bound by ⛓️  ",
+            "img": "grass.png",
+            "color" : "#c5f266",
             "load": false,
             "points" : [
                 "Website Launch",
@@ -72,47 +90,37 @@
             ]
         },
         {
-            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "title": "Rock Titan 🪨",
             "name": "Cathy",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
-            "load": false,
-            "points" : [
-                "Website Launch",
-                "Whitepaper Release",
-                "Token Launch",
-                "Marketing Campaign",
-                "CoinGecko Listing"
-            ]
+            "desc": "Dominance: Crushing 🔥 and resisting 💧  Weakness: Eroded by 🌿 and chained by ⛓️ ",
+            "img": "stone.png",
+            "color" : "#dad6e0",
+            "load": false
         },
+        
         {
-            "title": "Investing Ass And asset Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "title": "Metallic Might ⛓",
             "name": "Cathy",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "img": "https://lxme.in/wp-content/uploads/2023/02/Community-Blog-image-ETFs.jpg",
+            "desc": "Dominance: Binding 🪨 and choking 🌿  Weakness: Melted by 🔥 and rusted by 💧",
+            "img": "chain.png",
+            "color" : "#ffffff",
             "load": false
         }
+        
     ],
     "footer": {
-        "des": "ETF",
+        "des": "ELBET",
         "copy_right": "2023 copy right",
         "links": [
             {
-                "name": "About",
-                "href": "#about"
+                "name": "Elements",
+                "href": "#elements"
             },
             {
                 "name": "Tokenomics",
                 "href": "#tokenomics"
-            },
-            {
-                "name": "Roadmap",
-                "href": "#roadmap"
-            },
-            {
-                "name": "Lore",
-                "href": "#lore"
             }
+           
         ]
     }
 }

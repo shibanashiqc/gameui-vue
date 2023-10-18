@@ -15,14 +15,14 @@
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
+            class="rounded-lg btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
 
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
+            class="rounded-lg btn border-dotted border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
@@ -30,7 +30,7 @@
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
+            class="rounded-lg btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
 
 
@@ -40,9 +40,9 @@
     </div>
 
 
-    <div class="px-3 ">
+    <div class="px-6">
       <div class="bg-white shadow-lg shadow-cyan-500/50 rounded-md">
-        <div class="text-black p-10  w-full ">
+        <div class="text-black p-4  w-full ">
           <p class="awesome">
             ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers.
           </p>
@@ -55,7 +55,7 @@
 
 
   <div class="bg-[#057bf9] rounded-lg">
-    <section id="about" class="">
+    <section id="elements" class="">
 
       <div class="rounded-t-lg  h-14 shadow bg-[#057bf9] border-gray-700">
       </div>
@@ -82,12 +82,18 @@
               <div
                 class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
                 <div class="text-center">
-                  <img class="lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
+                  <img :style="{ 'background': lo.color}"   class="rounded-[20px] lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
                 </div>
-                <div class="text-center lg:pt-12">
-                  <h5 class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
+                <div class="text-center lg:pt-18 ">
+                  <h3 style="font-size: 17px;" class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
                     lo.title }}
-                  </h5>
+                  </h3>
+                  
+                  <h3 class="mt-2 mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
+                    lo.desc }}
+                  </h3>
+                  
+                  
 
                   <!-- <div class="lg:px-10" v-if="roadmap.load">
         <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
@@ -109,7 +115,7 @@
                 
               
                 
-                <div class="lg:px-20 lg:pt-12 px-20 pl-18">
+                <!-- <div class="lg:px-20 lg:pt-12 px-20 pl-18">
                   
                     <div v-on:click="lo.load = !lo.load">
                       <div v-if="lo.load">
@@ -133,7 +139,7 @@
                       </div>
 
                   </div>
-                </div>
+                </div> -->
 
               </div>
 
@@ -518,6 +524,7 @@ const total_supply = contents.total_supply;
 const tax = contents.tax;
 const section_1_topics = contents.section_1_topics;
 const footer = contents.footer;
+const logo = contents.logo; 
 
 export default {
   name: 'HomeSection',
@@ -534,7 +541,8 @@ export default {
       total_supply: total_supply,
       tax: tax,
       section_1_topics: section_1_topics,
-      footer: footer
+      footer: footer, 
+      logo: logo
     }
   }
 }
@@ -602,7 +610,7 @@ export default {
 
 @media (min-width: 320px) {
   .font-xl {
-    font-size: 3rem;
+    font-size: 2.57rem;
   }
 }
 
@@ -614,13 +622,13 @@ export default {
 
 @media (min-width: 768px) {
   .font-xl {
-    font-size: 7rem;
+    font-size: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
   .font-xl {
-    font-size: 7rem;
+    font-size: 4rem;
   }
 }
 
@@ -635,7 +643,7 @@ export default {
   }
 
   .font-xl {
-    font-size: 10rem;
+    font-size: 8rem;
     text-align: center;
   }
 }

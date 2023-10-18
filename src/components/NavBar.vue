@@ -15,8 +15,8 @@
           </svg> PLAY GAME
       </a> -->
 
-      <div class="bg-[#057bf9] font-sans  rounded-lg lg:invisible">
-        <a href="#">
+      <div class="bg-[#057bf9] font-sans  rounded-lg lg:invisible md:invisible">
+        <a href="https://t.me/ELBETCoin" target="_blank">
           <div class="pl-1 p-1 flex">
 
             <img src="../assets/telo.png" alt="telegram" class="w-6 h-18">
@@ -34,7 +34,7 @@
 
       <div class="flex md:order-2 space-x-0.5">
         <!-- border-dotted border-2 -->
-        <a style="font-size: 19px;/*! margin-left: -2px; */position: relative;right: 5px;height: 41px;" href="#"
+        <a style="font-size: 19px;/*! margin-left: -2px; */position: relative;right: 5px;height: 41px;" href=" https://twitter.com/elbetcoin" target="_blank"
           class=" border-white  w-12">
 
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -47,7 +47,7 @@
         </a>
 
 
-        <a href="#" class="mx-5  border-white  w-12">
+        <a href="https://t.me/elbetcoin" class="mx-5  border-white  w-12" target="_blank">
           <svg style="position: relative; top: 6px; left: 11px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
             fill="currentColor" class="bi bi-telegram text-white" viewBox="0 0 16 16">
             <path
@@ -66,8 +66,8 @@
 
 
 
-        <div class="bg-[#057bf9] font-sans rounded-lg hidden md:block">
-          <a href="#">
+        <div class="bg-[#057bf9] font-sans rounded-lg hidden md:block sm:block">
+          <a href="https://t.me/ELBETCoin" target="_blank">
           <div class="pl-1 flex mt-2">
 
             <img src="../assets/telo.png" alt="telegram" class="w-6 h-18">
@@ -109,39 +109,37 @@
   </nav>
 </template>
 
-<script>
-
-// import Telegram from '../assets/icons/iconmonstr-telegram-1.svg';
+<script setup>
 
 const navs = [
   {
-    name: 'About',
-    href: '#about',
+    name: 'Elements',
+    href: '#elements',
   },
   {
     name: 'Tokenomics',
     href: '#tokenomics',
   },
-  {
-    name: 'Roadmap',
-    href: '#roadmap',
-  },
-  {
-    name: 'Lore',
-    href: '#lore',
-  },
+  // {
+  //   name: 'Roadmap',
+  //   href: '#roadmap',
+  // },
+  // {
+  //   name: 'Lore',
+  //   href: '#lore',
+  // },
 ]
 
-export default {
-  components: {
-  },
-  name: 'NavBar',
-  data() {
-    return {
-      navs,
-    }
-  },
-}
+// export default {
+//   components: {
+//   },
+//   name: 'NavBar',
+//   data() {
+//     return {
+//       navs,
+//     }
+//   },
+// }
 </script>
 
  
