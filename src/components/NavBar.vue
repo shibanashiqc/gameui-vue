@@ -2,7 +2,9 @@
   <nav class="backdrop-blur fixed w-full z-23 top-0 left-0 bg-black/80">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 lg:p-3">
       <a href="https://flowbite.com/" class="flex items-center">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white x-font">ETF</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white x-font">
+          {{ title }}
+        </span>
       </a>
 
       
@@ -111,24 +113,27 @@
 
 <script setup>
 
-const navs = [
-  {
-    name: 'Elements',
-    href: '#elements',
-  },
-  {
-    name: 'Tokenomics',
-    href: '#tokenomics',
-  },
-  // {
-  //   name: 'Roadmap',
-  //   href: '#roadmap',
-  // },
-  // {
-  //   name: 'Lore',
-  //   href: '#lore',
-  // },
-]
+import contents from '../assets/content.json';
+const title = contents.logo;
+const navs = contents.footer.links;
+// const navs = [
+//   {
+//     name: 'Elements',
+//     href: '#elements',
+//   },
+//   {
+//     name: 'Tokenomics',
+//     href: '#tokenomics',
+//   },
+//   // {
+//   //   name: 'Roadmap',
+//   //   href: '#roadmap',
+//   // },
+//   // {
+//   //   name: 'Lore',
+//   //   href: '#lore',
+//   // },
+// ]
 
 // export default {
 //   components: {

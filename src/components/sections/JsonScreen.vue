@@ -8,7 +8,7 @@
 
 <script setup>
  import { ref } from 'vue';
- import contents from './content.json';
+ import contents from '../../assets/content.json';
  import * as fs from 'fs-web';
   
  const content = ref(JSON.stringify(contents, null, 2));

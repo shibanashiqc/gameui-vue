@@ -82,6 +82,14 @@
               <div
                 class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
                 <div class="text-center">
+                  
+                  <!-- <LottieAnimation 
+                  :animation-data="lo.animation"
+                  :auto-play="true"
+                  :loop="true"
+                  :speed="1"
+                  ref="anim" />
+                   -->
                   <img :style="{ 'background': lo.color}"   class="rounded-[20px] lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
                 </div>
                 <div class="text-center lg:pt-18 ">
@@ -266,7 +274,7 @@
   </div>
 
 
-  <section class="bg-[#101021] pt-5 lg:px-20">
+  <section class="bg-[#101021] pt-5 lg:px-20" id="gameplay">
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-2 text-white">
 
@@ -498,6 +506,7 @@
               Legal
             </p> -->
 
+             
 
 
           </div>
@@ -511,41 +520,30 @@
   <!-- </div> -->
 </template>
 
-<script>
+<script setup>
 
+// import { onMounted, ref } from "vue"
 import NavBar from '../NavBar.vue';
-import contents from './content.json';
-const content = contents.section_1;
-const roadmaps = contents.roadmaps;
+import contents from '../../assets/content.json';
+// const content = contents.section_1;
+// const roadmaps = contents.roadmaps;
 const lore = contents.lore;
-const title = contents.title;
 const ca = contents.ca;
 const total_supply = contents.total_supply;
 const tax = contents.tax;
 const section_1_topics = contents.section_1_topics;
 const footer = contents.footer;
-const logo = contents.logo; 
+// import fireAn from '../../assets/animation_lo0e033r.json';
+// import { LottieAnimation } from "lottie-web-vue"
 
-export default {
-  name: 'HomeSection',
-  components: {
-    NavBar
-  },
-  data() {
-    return {
-      msg: title,
-      content: content,
-      roadmaps: roadmaps,
-      lore: lore,
-      ca: ca,
-      total_supply: total_supply,
-      tax: tax,
-      section_1_topics: section_1_topics,
-      footer: footer, 
-      logo: logo
-    }
-  }
-}
+// let anim = ref()
+
+// onMounted(() => {
+//   setTimeout(() => {
+//     // console.log(anim.value.goToAndPlay(150, true))
+//     // anim.value
+//   }, 500)
+// })
 
 </script>
 

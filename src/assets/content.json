@@ -51,6 +51,8 @@
             "img": "fire.png",
             "load": false,
             "color": "#ffb439",
+            "have_lottie": true,
+            "lottie": "@/assets/animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -66,6 +68,8 @@
             "img": "water.png",
             "color" : "#80dbff",
             "load": false,
+            "have_lottie": true,
+            "lottie": "animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -81,6 +85,8 @@
             "img": "grass.png",
             "color" : "#c5f266",
             "load": false,
+            "have_lottie": true,
+            "lottie": "animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -95,6 +101,8 @@
             "desc": "Dominance: Crushing 🔥 and resisting 💧  Weakness: Eroded by 🌿 and chained by ⛓️ ",
             "img": "stone.png",
             "color" : "#dad6e0",
+            "have_lottie": true,
+            "lottie": "animation_lo0e033r.json",
             "load": false
         },
         
@@ -104,6 +112,8 @@
             "desc": "Dominance: Binding 🪨 and choking 🌿  Weakness: Melted by 🔥 and rusted by 💧",
             "img": "chain.png",
             "color" : "#ffffff",
+            "have_lottie": true,
+            "lottie": "animation_lo0e033r.json",
             "load": false
         }
         
@@ -119,6 +129,10 @@
             {
                 "name": "Tokenomics",
                 "href": "#tokenomics"
+            },
+            {
+                "name" : "Game Play",
+                "href" : "#gameplay"
             }
            
         ]

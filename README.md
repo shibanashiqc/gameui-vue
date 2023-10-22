@@ -1,4 +1,4 @@
-# etf
+# ELBET
 
 ## Project setup
 ```
