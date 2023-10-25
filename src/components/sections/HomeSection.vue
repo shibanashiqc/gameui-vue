@@ -94,7 +94,7 @@
                     class="rounded-[20px] lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
                 </div>
                 <div class="text-center lg:pt-18 ">
-                  <h3 style="font-size: 17px;"
+                  <h3 style="font-size: 15px;"
                     class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2 flex">
                     {{ lo.title }}
                     <div class="lg:px-2 px-2">
