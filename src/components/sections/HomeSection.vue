@@ -533,6 +533,7 @@ const total_supply = contents.total_supply;
 const tax = contents.tax;
 const section_1_topics = contents.section_1_topics;
 const footer = contents.footer;
+const msg = contents.title;
 // import fireAn from '../../assets/animation_lo0e033r.json';
 // import { LottieAnimation } from "lottie-web-vue"
 
