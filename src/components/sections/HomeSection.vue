@@ -22,7 +22,7 @@
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
-            class="rounded-lg btn border border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
+            class="rounded-lg btn border border-2 border-white-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
@@ -82,7 +82,7 @@
               <div
                 class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
                 <div class="text-center">
-                  
+
                   <!-- <LottieAnimation 
                   :animation-data="lo.animation"
                   :auto-play="true"
@@ -90,18 +90,24 @@
                   :speed="1"
                   ref="anim" />
                    -->
-                  <img :style="{ 'background': lo.color}"   class="rounded-[20px] lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
+                  <img :style="{ 'background': lo.color }"
+                    class="rounded-[20px] lg:h-48 md:h-20 object-cover object-center" :src="lo.img" alt="blog cover" />
                 </div>
                 <div class="text-center lg:pt-18 ">
-                  <h3 style="font-size: 17px;" class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
-                    lo.title }}
+                  <h3 style="font-size: 17px;"
+                    class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2 flex">
+                    {{ lo.title }}
+                    <div class="lg:px-2 px-2">
+                      <img :style="{ 'background': 'white' }"
+                        class="rounded-[20px] lg:h-6 md:h-1 sm:h-1 h-7 object-cover object-center" :src="lo.img" alt="blog cover" />
+                    </div>
                   </h3>
-                  
+
                   <h3 class="mt-2 mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
                     lo.desc }}
                   </h3>
-                  
-                  
+
+
 
                   <!-- <div class="lg:px-10" v-if="roadmap.load">
         <div class="flex  flex-wrap" v-for="point in roadmap.points" :key="point">
@@ -120,9 +126,9 @@
                   </ul>
 
                 </div>
-                
-              
-                
+
+
+
                 <!-- <div class="lg:px-20 lg:pt-12 px-20 pl-18">
                   
                     <div v-on:click="lo.load = !lo.load">
@@ -506,7 +512,7 @@
               Legal
             </p> -->
 
-             
+
 
 
           </div>
@@ -847,5 +853,4 @@ const msg = contents.title;
 .style p {
   color: #fff;
   font-size: 50px;
-}
-</style>
+}</style>
