@@ -615,7 +615,7 @@ const msg = contents.title;
 
 @media (min-width: 320px) {
   .font-xl {
-    font-size: 2.57rem;
+    font-size: 2.52rem;
   }
 }
 
