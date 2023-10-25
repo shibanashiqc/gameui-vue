@@ -282,12 +282,13 @@
 
   <section class="bg-[#101021] pt-5 lg:px-20" id="gameplay">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 x-gap pr-3 py-4 pr-2 px-2 text-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 x-gap pr-3 py-4 pr-2 px-2 text-white">
 
-      <div class="border border-gray-200  shadow bg-[#057bf9] border-gray-700 items-center "
+      <div class="rounded-[12px] border shadow bg-[#057bf9] items-center "
         v-for="auto in section_1_topics" :key="auto.title">
         <h3 class=" mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
-        <p class=" p-2 mb-3 font-normal " style="font-size: 18px;" v-html="auto.description">
+        <hr class="border-1 border-green-200 mb-5" />
+        <p class="px-2 mb-3 font-normal " style="font-size: 18px;" v-html="auto.description">
 
         </p>
       </div>
