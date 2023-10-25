@@ -15,14 +15,14 @@
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="rounded-lg btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
+            class="rounded-lg btn border border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
 
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
 
           <button style="font-size: 21px;"
-            class="rounded-lg btn border-dotted border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
+            class="rounded-lg btn border border-2 border-pink-500 bg-[#057bf9]  text-white font-bold py-2">BUY</button>
           <!-- <button
             class="border-dotted border-2 border-white-500 btn bg-green-200 hover:bg-black-200 text-black-200 font-bold py-2">BUY</button> -->
         </div>
@@ -30,7 +30,7 @@
 
         <div class="xl:col-span-2 md:col-span-6 sm:col-span-6">
           <button style="font-size: 21px;"
-            class="rounded-lg btn border-dotted border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
+            class="rounded-lg btn border border-2 border-white-500  text-[#057bf9] font-bold py-2">CHART</button>
         </div>
 
 
