@@ -56,7 +56,6 @@
             "load": false,
             "color": "#ffb439",
             "have_lottie": true,
-            "lottie": "@/assets/animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -73,7 +72,6 @@
             "color" : "#80dbff",
             "load": false,
             "have_lottie": true,
-            "lottie": "animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -90,7 +88,6 @@
             "color" : "#c5f266",
             "load": false,
             "have_lottie": true,
-            "lottie": "animation_lo0e033r.json",
             "points" : [
                 "Website Launch",
                 "Whitepaper Release",
@@ -106,7 +103,6 @@
             "img": "stone.png",
             "color" : "#B87333",
             "have_lottie": true,
-            "lottie": "animation_lo0e033r.json",
             "load": false
         },
         
@@ -117,7 +113,6 @@
             "img": "chain.png",
             "color" : "#ffffff",
             "have_lottie": true,
-            "lottie": "animation_lo0e033r.json",
             "load": false
         }
         
