@@ -95,12 +95,12 @@
                 </div>
                 <div class="text-center lg:pt-18 ">
                   <h3 style="font-size: 15px;"
-                    class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2 flex">
+                    class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2 ">
                     {{ lo.title }}
-                    <div class="lg:px-2 px-2">
+                    <!-- <div class="lg:px-2 px-2">
                       <img :style="{ 'background': 'white' }"
                         class="rounded-[20px] lg:h-6 md:h-1 sm:h-1 h-7 object-cover object-center" :src="lo.img" alt="blog cover" />
-                    </div>
+                    </div> -->
                   </h3>
 
                   <h3 class="mt-2 mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{

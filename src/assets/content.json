@@ -49,7 +49,7 @@
     ],
     "lore": [
         {
-            "title": "Flames of Fury ",
+            "title": "Flames of Fury 🔥",
             "name": "Cathy",
             "desc": "Dominance: Scorching 🌿 and melting ⛓️ Weakness: Doused by 💧 and blocked by 🪨",
             "img": "fire.png",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "title": "Liquid Legacy ",
+            "title": "Liquid Legacy 💧",
             "name": "Cathy",
             "desc": "Dominance: Quenching 🔥 and corroding ⛓️   Weakness: Absorbed by 🌿 and halted by 🪨",
             "img": "water.png",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "title": "Flora Force ",
+            "title": "Flora Force 🌿",
             "name": "Cathy",
             "desc": "Dominance: Drinking 💧 and fracturing 🪨  Weakness: Withered by 🔥 and bound by ⛓️  ",
             "img": "grass.png",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Rock Titan ",
+            "title": "Rock Titan 🪨",
             "name": "Cathy",
             "desc": "Dominance: Crushing 🔥 and resisting 💧  Weakness: Eroded by 🌿 and chained by ⛓️ ",
             "img": "stone.png",
@@ -111,7 +111,7 @@
         },
         
         {
-            "title": "Metallic Might ",
+            "title": "Metallic Might ⛓️",
             "name": "Cathy",
             "desc": "Dominance: Binding 🪨 and choking 🌿  Weakness: Melted by 🔥 and rusted by 💧",
             "img": "chain.png",
