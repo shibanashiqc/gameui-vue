@@ -96,7 +96,7 @@
                 <div class="text-center lg:pt-18 ">
                   <h3 style="font-size: 15px;"
                     class="mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2 ">
-                    {{ lo.title }}
+                     {{ lo.title }} <i v-html="lo.icon" class="bg-black rounded-md" style="font-size: 20px;"></i>
                     <!-- <div class="lg:px-2 px-2">
                       <img :style="{ 'background': 'white' }"
                         class="rounded-[20px] lg:h-6 md:h-1 sm:h-1 h-7 object-cover object-center" :src="lo.img" alt="blog cover" />
