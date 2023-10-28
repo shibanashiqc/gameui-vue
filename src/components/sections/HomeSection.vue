@@ -79,7 +79,7 @@
             <hr class="border-1 border-green-200 mb-5" />
             <div class="pt-2" v-for="lo in lore" :key="lo.title">
 
-              <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+              <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left lg:px-8">
                 <div class="text-center">
 
                   <!-- <LottieAnimation 
