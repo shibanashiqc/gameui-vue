@@ -5,6 +5,7 @@
     "ca": "2000000000000000000000000",
     "total_supply": "1,000,000,000",
     "tax": "5% Buy 5% Sell",
+    "max" : "2%",
     "section_1_topics": [
         {
             "title": "AUTO LP REFLECTIONS:",
@@ -126,6 +127,10 @@
         "des": "ELBET",
         "copy_right": "2023 copy right",
         "links": [
+            {
+                "name": "About",
+                "href": "#about"
+            },
             {
                 "name": "Elements",
                 "href": "#elements"

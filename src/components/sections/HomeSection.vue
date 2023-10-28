@@ -40,11 +40,11 @@
     </div>
 
 
-    <div class="px-6">
+    <div class="px-6" id="about">
       <div class="bg-white shadow-lg shadow-cyan-500/50 rounded-md">
         <div class="text-black p-4  w-full ">
           <p class="awesome">
-            ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers.
+            ELBET is a Telegram-based PvP wagering game, where players stake their bets on elemental powers for 1:1 battles. With in-game powerups, exclusive Revenue sharing Tournaments experience unmatched thrills in PvP Betting on Telegram.
           </p>
         </div>
       </div>
@@ -222,21 +222,28 @@
           <div
             class="grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10 lg:px-20 ">
             <div class="text-left">
-              <h5 style="font-size: 45px;"
+              <h5 style="font-size: 33px;"
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">CA :
               </h5>
               {{ ca }}
             </div>
             <div class="text-left">
-              <h5 style="font-size: 45px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
+              <h5 style="font-size: 33px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
                 TOTAL SUPPLY :</h5>
               {{ total_supply }}
             </div>
             <div class="text-left lg:pl-20">
-              <h5 style="font-size: 45px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
+              <h5 style="font-size: 33px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
                 TAX :</h5>
               {{ tax }}
             </div>
+            
+            <div class="text-left ">
+              <h5 style="font-size: 33px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
+                Max wallet :</h5>
+              <p style="font-size: 15px;">{{ max }}</p>
+            </div>
+            
           </div>
 
 
@@ -538,6 +545,7 @@ const tax = contents.tax;
 const section_1_topics = contents.section_1_topics;
 const footer = contents.footer;
 const msg = contents.title;
+const max = contents.max;
 // import { LottieAnimation } from "lottie-web-vue"
 
 // let anim = ref()
