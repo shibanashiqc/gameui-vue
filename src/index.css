@@ -44,6 +44,12 @@ body {
 }
 
 @font-face {
+  font-family: 'Etno';
+  src: url("./assets/fonts/ethnocentric rg.otf");
+}
+
+
+@font-face {
     font-family: 'Flicker';
     src:url('./assets/fonts/Flicker.ttf.woff') format('woff'),
         url('./assets/fonts/Flicker.ttf.svg#Flicker') format('svg'),
@@ -57,7 +63,9 @@ body {
   font-family: G7_Cube_5, sans-serif;
 }
 
+
+
 .custom-font {
-  font-family: Gameplay, sans-serif;
+  font-family: Etno, sans-serif;
   font-weight: bold;
 }
