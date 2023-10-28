@@ -247,7 +247,7 @@
           </div>
           
           <!-- center max wallet -->
-          <div class="flex justify-center pt-4 lg:pr-20 pl-5">
+          <div class="flex lg:justify-center pt-4 lg:pr-20 pl-10">
             <div class="text-left">
               <h5 style="font-size: 33px;"
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">Max Wallet :
