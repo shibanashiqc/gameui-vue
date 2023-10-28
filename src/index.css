@@ -33,6 +33,11 @@ body {
 }
 
 @font-face {
+    font-family: 'Bakemono';
+    src: url("./assets/fonts/Bakemono-Stereo-Thin-trial.ttf");
+}
+
+@font-face {
     font-family: 'Flicker';
     src:url('./assets/fonts/Flicker.ttf.woff') format('woff'),
         url('./assets/fonts/Flicker.ttf.svg#Flicker') format('svg'),
@@ -44,4 +49,9 @@ body {
 
 :root {
   font-family: G7_Cube_5, sans-serif;
+}
+
+.custom-font {
+  font-family: Bakemono, sans-serif;
+  font-weight: bold;
 }
