@@ -79,8 +79,7 @@
             <hr class="border-1 border-green-200 mb-5" />
             <div class="pt-2" v-for="lo in lore" :key="lo.title">
 
-              <div
-                class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
+              <div class="pb-5 grid grid-cols-1 lg:col-span-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 text-sm font-medium text-white text-left px-10">
                 <div class="text-center">
 
                   <!-- <LottieAnimation 
@@ -103,8 +102,7 @@
                     </div> -->
                   </h3>
 
-                  <h3 class="mt-2 mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">{{
-                    lo.desc }}
+                  <h3 class="mt-2 mb-2 font-bold tracking-tight text-gray-900 text-whiter text-white pt-2" v-html="lo.desc">
                   </h3>
 
 
