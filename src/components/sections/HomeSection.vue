@@ -238,13 +238,25 @@
               {{ tax }}
             </div>
             
-            <div class="text-left ">
+            <!-- <div class="lg:px-96">
               <h5 style="font-size: 33px;" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white pt-2">
                 Max wallet :</h5>
               <p style="font-size: 15px;">{{ max }}</p>
-            </div>
+            </div> -->
             
           </div>
+          
+          <!-- center max wallet -->
+          <div class="flex justify-center pt-4 lg:pr-20">
+            <div class="text-left">
+              <h5 style="font-size: 33px;"
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-whiter text-white pt-2">Max Wallet :
+              </h5>
+              <p class="text-white" style="font-size: 15px;">{{ max }}</p>
+            </div>
+          </div>
+          
+          
 
 
 
