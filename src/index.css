@@ -33,6 +33,12 @@ body {
 }
 
 @font-face {
+  font-family: 'Gameplay';
+  src: url("./assets/fonts/Gameplay.ttf");
+  /* font-weight: 100; */
+}
+
+@font-face {
     font-family: 'Bakemono';
     src: url("./assets/fonts/Bakemono-Stereo-Thin-trial.ttf");
 }
@@ -52,6 +58,6 @@ body {
 }
 
 .custom-font {
-  font-family: Bakemono, sans-serif;
+  font-family: Gameplay, sans-serif;
   font-weight: bold;
 }
