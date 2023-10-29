@@ -303,7 +303,7 @@
 
       <div class="rounded-[12px] border shadow bg-[#057bf9] items-center custom-font "
         v-for="auto in section_1_topics" :key="auto.title">
-        <h3 class=" mb-2 text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
+        <h3 class=" mb-2 text-black text-2xl font-bold tracking-tight  text-center pt-2">{{ auto.title }}</h3>
         <hr class="border-1 border-green-200 mb-5" />
         <p class="px-2 mb-3 font-normal custom-font" style="font-size: 18px;" v-html="auto.description">
 
